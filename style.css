@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font: 400 1rem 'Roboto', sans-serif;
+    background: linear-gradient(0, rgb(226, 121, 121),#e3c3ab);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+
+.corpo{
+    display: block;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    left: 70px;
+
+    
+    
+}
+.foto img{
+    border-radius: 50px;
+    position: absolute;
+    top: 80px;
+    left: 124px;
+    border-radius: 500%;
+}
+.nome{
+    color:black;
+    font-size: 20px;
+    width: 370px;
+    height: 0px;
+    position: absolute;
+    top: 27%;
+    left:-5%;
+    text-align: center;
+    
+}
+
+.insta{
+    color: #118eae;
+    font-size: 15px;
+    width: 370px;
+    height: 0px;
+    position: absolute;
+    top: 31%;
+    left: -5%;
+    text-align: center;
+}
+.itens{
+    
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 4px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    
+}
+.itens:hover{
+    background-color: #118eae;
+    transition: 1s;
+}
+.itens1{
+    font-size: 1.1rem;
+    background-color: #118eae;
+    border-radius:15px;
+    border: 1px solid black;
+    padding: 4px;
+}
+.itens1:hover{
+    background-color: white;
+    transition: 1s;
+}
+
+.itens1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.itens a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.rodape{
+        font-size: 12px;
+        position: absolute;
+        top: 80%;
+        left: 17%;
+        color: black;
+        padding: 10px;
+        text-align: center;
+        word-spacing: 1px;
+        max-width: 100%;
+}
+@media(min-width: 750px){
+    .corpo{
+        display: block;
+        width: 500px;
+        height: 50px;
+        text-align: center;
+        position: absolute;
+        top: 250px;
+        left: 450px;
+    }
+    .rodape{
+        font-size: 12px;
+        position: absolute;
+        top: 80%;
+        left: 41%;
+        color: black;
+        padding: 10px;
+        text-align: center;
+        word-spacing: 1px;
+        max-width: 100%;
+    }
+    .foto img{
+        position: absolute;
+        top: 10%;
+        left: 650px;
+        
+    }
+    .nome{
+        color:black;
+        font-size: 25px;
+        width: 370px;
+        height: 0px;
+        position: absolute;
+        top: 25%;
+        left: 37%;
+        text-align: center;
+    
+}
+
+    .insta{
+        font-size: 20px;
+        position: absolute;
+        top: 31%;
+        left: 37%;
+        
+    }
+    
+    .itens a
+    {
+        font-size:20px ;
+    }
+    .itens1 a{
+        font-size: 20px;
+    }
+}
